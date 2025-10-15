@@ -59,12 +59,7 @@
     print("Boolean examples:")
     print("Is student?", is_student)
     print("Has job?", has_job)
-    print("Type of is_student:", type(is_student))  # <class 'bool'>
-
-    # Boolean logic operations:
-    print("Logical AND (is_student and has_job):", is_student and has_job)  # False
-    print("Logical OR (is_student or has_job):", is_student or has_job)     # True
-    print("Logical NOT (not is_student):", not is_student)                  # False
+    print("Type of is_student:", type(is_student))  # <class 'bool'>             # False
 
 # 5. Variable assignment and naming
 # --------------------------------------------------------------------------------------------------------

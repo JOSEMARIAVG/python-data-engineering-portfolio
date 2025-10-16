@@ -23,28 +23,28 @@
 
 # 2. Importing Specific Functions or Classes
 # --------------------------------------------------------------------------------------------------------
-# You can import only what you need to keep namespace clean.
+    # You can import only what you need to keep namespace clean.
 
-from math import factorial, ceil
+    from math import factorial, ceil
 
-print("Factorial of 5:", factorial(5))
-print("Ceiling of 3.7:", ceil(3.7))
+    print("Factorial of 5:", factorial(5))
+    print("Ceiling of 3.7:", ceil(3.7))
 
 # 3. Creating Your Own Module
 # --------------------------------------------------------------------------------------------------------
-# Save a file called mymodule.py in the following path:
-# import os
-# print(os.getcwd())
+    # Save a file called mymodule.py in the following path:
+    # import os
+    # print(os.getcwd())
 
-# mymodule.py
-# def greet(name):
-#     return f"Hello, {name}!"
-# PI = 3.14159
+    # mymodule.py
+    # def greet(name):
+    #     return f"Hello, {name}!"
+    # PI = 3.14159
 
-# Then you can import it:
-import mymodule
-print(mymodule.greet("Jose"))
-print("PI from mymodule:", mymodule.PI)
+    # Then you can import it:
+    import mymodule
+    print(mymodule.greet("Jose"))
+    print("PI from mymodule:", mymodule.PI)
 
 # 4. Using from-import for your own module
 # --------------------------------------------------------------------------------------------------------
@@ -54,15 +54,15 @@ print("PI from mymodule:", mymodule.PI)
 
 # 5. Packages (folder with __init__.py)
 # --------------------------------------------------------------------------------------------------------
-    # Folder structure:
-    # mypackage/
-    # ├── __init__.py
-    # ├── module1.py
-    # └── module2.py
+        # Folder structure:
+        # mypackage/
+        # ├── __init__.py
+        # ├── module1.py
+        # └── module2.py
 
-# Usage:
-# from mypackage import module1
-# from mypackage.module2 import some_function
+    # Usage:
+    # from mypackage import module1
+    # from mypackage.module2 import some_function
 
-# __init__.py can be empty or initialize package-level variables
-# It makes Python treat the folder as a package
+    # __init__.py can be empty or initialize package-level variables
+    # It makes Python treat the folder as a package

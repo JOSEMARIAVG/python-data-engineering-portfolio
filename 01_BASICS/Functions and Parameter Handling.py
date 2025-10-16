@@ -129,17 +129,17 @@
 # --------------------------------------------------------------------------------------------------------
 # Combine functions, *args, **kwargs and return values
 
-def student_report(*names, **grades):
-    """
-    Prints student names and their grades.
-    Calculates average grade.
-    """
-    print("Students:", names)
-    total = sum(grades.values())
-    count = len(grades)
-    print("Len:", count)
-    average = total / count if count > 0 else 0
-    print("Grades:", grades)
-    print("Average grade:", average)
+    def student_report(*names, **grades):
+        """
+        Prints student names and their grades.
+        Calculates average grade.
+        """
+        print("Students:", names)
+        total = sum(grades.values())
+        count = len(grades)
+        print("Len:", count)
+        average = total / count if count > 0 else 0
+        print("Grades:", grades)
+        print("Average grade:", average)
 
-student_report("Ana", "Luis", "Maria", Ana=85, Luis=90, Maria=78)
+    student_report("Ana", "Luis", "Maria", Ana=85, Luis=90, Maria=78)

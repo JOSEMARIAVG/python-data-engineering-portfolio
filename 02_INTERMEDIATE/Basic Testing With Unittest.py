@@ -37,14 +37,14 @@ import unittest
 
 # 3. Running the tests
 # --------------------------------------------------------------------------------------------------------
-# If this script is run directly, it will execute all test cases
-    if __name__ == "__main__":
-        unittest.main()
+    # If this script is run directly, it will execute all test cases
+        if __name__ == "__main__":
+            unittest.main()
 
 # 4. Key Points
 # --------------------------------------------------------------------------------------------------------
-# - Each test is a method in a class inheriting from unittest.TestCase
-# - Use self.assertEqual, self.assertAlmostEqual, self.assertRaises, etc.
-# - Tests should be small and independent
-# - Run tests regularly to catch errors early
-# - Can be combined with CI/CD pipelines for automated testing
+    # - Each test is a method in a class inheriting from unittest.TestCase
+    # - Use self.assertEqual, self.assertAlmostEqual, self.assertRaises, etc.
+    # - Tests should be small and independent
+    # - Run tests regularly to catch errors early
+    # - Can be combined with CI/CD pipelines for automated testing

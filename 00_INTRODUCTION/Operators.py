@@ -1,4 +1,4 @@
-# Description: Examples of basic Python operators
+# Examples of basic Python operators
 # This script demonstrates arithmetic, comparison, logical,
 # assignment, and bitwise operators with explanatory comments.
 

@@ -1,0 +1,20 @@
+{
+    "employees": [
+        {
+            "name": "Alice",
+            "age": 10,
+            "country": "USA"
+        },
+        {
+            "name": "Bob",
+            "age": 55,
+            "country": "UK"
+        },
+        {
+            "name": "Charlie",
+            "age": 90,
+            "country": "Canada"
+        }
+    ],
+    "company": "TechCorp"
+}

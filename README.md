@@ -4,22 +4,29 @@ Welcome to **Python Fundamentals to Advanced**, a repository designed to learn, 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
-/python-fundamentals-to-advanced
-├── 00_introduction/ # Introduction and setup
-├── 01_basics/ # Basic Python fundamentals
-├── 02_intermediate/ # Intermediate concepts: OOP, modules, testing
-├── 03_advanced/ # Advanced topics: concurrency, decorators, metaprogramming
-├── 04_data/ # Python applied to data and automation
-├── 05_projects/ # Practical mini projects
-├── requirements.txt # Required dependencies
-└── README.md # This file
+
+- 00_introduction/ # Introduction and setup
+
+- 01_basics/ # Basic Python fundamentals
+
+- 02_intermediate/ # Intermediate concepts: OOP, modules, testing
+
+- 03_advanced/ # Advanced topics: concurrency, decorators, metaprogramming
+
+- 04_data/ # Python applied to data and automation
+
+- 05_projects/ # Practical mini projects
+
+- requirements.txt # Required dependencies
+
+- README.md # This file
 
 
 ---
 
-## 🧩 01_basics - Basic Python
+## 01_basics - Basic Python
 
 Learn and find examples of:
 
@@ -33,7 +40,7 @@ Learn and find examples of:
 
 ---
 
-## ⚙️ 02_intermediate - Intermediate Python
+## 02_intermediate - Intermediate Python
 
 Deepen your knowledge with:
 
@@ -47,7 +54,7 @@ Deepen your knowledge with:
 
 ---
 
-## 🚀 03_advanced - Advanced Python
+## 03_advanced - Advanced Python
 
 For developers aiming to master Python:
 
@@ -60,7 +67,7 @@ For developers aiming to master Python:
 
 ---
 
-## 📊 04_data - Python for Data & Automation
+## 04_data - Python for Data & Automation
 
 Examples and exercises focused on data engineering and automation:
 
@@ -74,7 +81,7 @@ Examples and exercises focused on data engineering and automation:
 
 ---
 
-## 🧪 05_projects - Mini Projects
+## 05_projects - Mini Projects
 
 Practical projects combining learned skills:
 
@@ -88,7 +95,7 @@ Practical projects combining learned skills:
 
 ---
 
-## 🧰 Best Practices and Style
+## Best Practices and Style
 
 - Type hinting with `typing`
 - Documentation using docstrings and `pydoc`
@@ -98,7 +105,7 @@ Practical projects combining learned skills:
 
 ---
 
-## ⚡ How to Use this Repository
+## How to Use this Repository
 
 1. Clone the repository:
 ```bash

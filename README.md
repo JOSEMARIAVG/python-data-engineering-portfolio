@@ -7,8 +7,6 @@ Welcome to **Python Fundamentals to Advanced**, a repository designed to learn, 
 ## Repository Structure
 
 
-- 00_introduction/ # Introduction and setup
-
 - 01_basics/ # Basic Python fundamentals
 
 - 02_intermediate/ # Intermediate concepts: OOP, modules, testing

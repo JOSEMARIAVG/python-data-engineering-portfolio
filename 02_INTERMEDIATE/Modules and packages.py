@@ -1,101 +1,68 @@
-# Once you understand how to import a single file (module), 
-# it’s time to work with multiple files organized into packages.
 
-# 1. MODULES RECAP
+# Modules and packages allow you to organize Python code into reusable pieces.
+# - A module is a single .py file containing functions, classes, or variables.
+# - A package is a folder containing multiple modules and an __init__.py file.
+
+# 1. Importing Standard Modules
 # --------------------------------------------------------------------------------------------------------
-    # Let's say you have a file called "mymath.py" in the same directory:
-    #
-    # def add(a, b):
-    #     return a + b
-    #
-    # def subtract(a, b):
-    #     return a - b
-    #
-    # You can import and use it like this:
+    # Python provides many built-in modules that can be imported.
 
-    import mymath
+    import math       # Provides mathematical functions
+    import random     # Provides random number generation
+    import datetime   # Provides date and time utilities
 
-    print("Add:", mymath.add(5, 2))
-    print("Subtract:", mymath.subtract(5, 2))
+    # Using math module
+    print("Square root of 16:", math.sqrt(16))
+    print("Pi value:", math.pi)
 
-    # You can also import specific functions
-    from mymath import add
+    # Using random module
+    print("Random integer between 1 and 10:", random.randint(1, 10))
 
-    print("Add (direct import):", add(10, 3))
+    # Using datetime module
+    print("Current date and time:", datetime.datetime.now())
 
-
-# 2. PACKAGES (FOLDERS WITH MULTIPLE MODULES)
+# 2. Importing Specific Functions or Classes
 # --------------------------------------------------------------------------------------------------------
-    # A package is just a folder that contains an "__init__.py" file (can be empty).
-    # Example structure:
-    #
+# You can import only what you need to keep namespace clean.
+
+from math import factorial, ceil
+
+print("Factorial of 5:", factorial(5))
+print("Ceiling of 3.7:", ceil(3.7))
+
+# 3. Creating Your Own Module
+# --------------------------------------------------------------------------------------------------------
+# Save a file called mymodule.py in the following path:
+# import os
+# print(os.getcwd())
+
+# mymodule.py
+# def greet(name):
+#     return f"Hello, {name}!"
+# PI = 3.14159
+
+# Then you can import it:
+import mymodule
+print(mymodule.greet("Jose"))
+print("PI from mymodule:", mymodule.PI)
+
+# 4. Using from-import for your own module
+# --------------------------------------------------------------------------------------------------------
+    from mymodule import greet, PI
+    print(greet("Ana"))
+    print(PI)
+
+# 5. Packages (folder with __init__.py)
+# --------------------------------------------------------------------------------------------------------
+    # Folder structure:
     # mypackage/
     # ├── __init__.py
-    # ├── math_utils.py
-    # └── string_utils.py
-    #
-    # In "math_utils.py":
-    # def multiply(a, b):
-    #     return a * b
-    #
-    # In "string_utils.py":
-    # def to_uppercase(text):
-    #     return text.upper()
-    #
-    # In "__init__.py", you can control what is exposed:
-    # from .math_utils import multiply
-    # from .string_utils import to_uppercase
-    #
-    # Then you can use:
-    #
-    from mypackage import multiply, to_uppercase
-    print(multiply(3, 4))
-    print(to_uppercase("hello"))
+    # ├── module1.py
+    # └── module2.py
 
-# 3. RELATIVE IMPORTS
-# --------------------------------------------------------------------------------------------------------
-    # Inside a package, you can use relative imports to access other modules.
-    #
-    # Example: inside "string_utils.py"
-    # from .math_utils import multiply
-    #
-    # This imports from another file inside the same package.
+# Usage:
+# from mypackage import module1
+# from mypackage.module2 import some_function
 
-# 4. NAMESPACES AND ALIASES
-# --------------------------------------------------------------------------------------------------------
-    # You can use aliases to simplify names
-
-    import math as m
-    print("Square root (with alias):", m.sqrt(16))
-
-    # You can also import everything (not recommended)
-    from math import *
-    print(sqrt(25))  # Works, but can cause conflicts if other modules have same function names
-
-# 5. THE __name__ VARIABLE
-# --------------------------------------------------------------------------------------------------------
-    # Every Python file has a built-in variable called __name__.
-    # When the file is run directly, __name__ == "__main__".
-    # When imported, __name__ == "module_name".
-
-    # Example content in mymodule.py:
-    #
-    # def greet():
-    #     print("Hello from mymodule!")
-    #
-    # if __name__ == "__main__":
-    #     print("Running mymodule directly!")
-    #     greet()
-    #
-    # When imported: only greet() is available.
-    # When run directly: both messages are printed.
-
-# 6. THIRD-PARTY PACKAGES (FROM PYPI)
-# --------------------------------------------------------------------------------------------------------
-    # You can install external packages using pip from your terminal:
-    pip install requests
-    
-    # Example:
-    import requests
-    response = requests.get("https://api.github.com")
-    print(response.status_code)
+# __init__.py can be empty or initialize package-level variables
+# It makes Python treat the folder as a package

@@ -74,7 +74,6 @@ Examples and exercises focused on data engineering and automation:
 - ETL: reading, transforming, and loading data
 - APIs: fetching external data with `requests`
 - Task automation (`schedule`, cron jobs)
-- Excel handling with `openpyxl` or `pandas`
 - Database connections: SQLite and SQLAlchemy
 
 ---

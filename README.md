@@ -78,30 +78,6 @@ Examples and exercises focused on data engineering and automation:
 
 ---
 
-## 05_projects - Mini Projects
-
-Practical projects combining learned skills:
-
-1. Currency converter using an API
-2. ETL that cleans a dataset and generates metrics
-3. Simple web scraper using `BeautifulSoup`
-4. File automation script
-5. Server log analysis
-6. Simple dashboard with `streamlit`
-7. Text processing (word frequency analysis)
-
----
-
-## Best Practices and Style
-
-- Type hinting with `typing`
-- Documentation using docstrings and `pydoc`
-- Code formatting and linting (`black`, `flake8`)
-- SOLID principles and PEP8
-- Git and GitHub usage (clear and organized commits)
-
----
-
 ## How to Use this Repository
 
 1. Clone the repository:

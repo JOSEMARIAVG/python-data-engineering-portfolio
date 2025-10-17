@@ -1,0 +1,8 @@
+order_id,customer,amount,region,date
+1,Alice,250.0,North,2025-01-01
+2,Bob,150.0,South,2025-01-02
+3,Charlie,400.0,East,2025-01-03
+4,David,300.0,West,2025-01-04
+5,Eve,,North,2025-01-05
+6,Frank,500.0,East,2025-01-06
+7,Grace,120.0,South,2025-01-07

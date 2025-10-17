@@ -1,0 +1,7 @@
+{"order_id":1,"customer":"Alice","amount":250.0,"region":"North","date":1735689600000,"tax":52.5,"total":302.5,"market_type":"Domestic","origin":"json"}
+{"order_id":2,"customer":"Bob","amount":150.0,"region":"South","date":1735776000000,"tax":31.5,"total":181.5,"market_type":"International","origin":"json"}
+{"order_id":3,"customer":"Charlie","amount":400.0,"region":"East","date":1735862400000,"tax":84.0,"total":484.0,"market_type":"Domestic","origin":"json"}
+{"order_id":4,"customer":"David","amount":300.0,"region":"West","date":1735948800000,"tax":63.0,"total":363.0,"market_type":"International","origin":"json"}
+{"order_id":5,"customer":"Eve","amount":286.6666666667,"region":"North","date":1736035200000,"tax":60.2,"total":346.8666666667,"market_type":"Domestic","origin":"json"}
+{"order_id":6,"customer":"Frank","amount":500.0,"region":"East","date":1736121600000,"tax":105.0,"total":605.0,"market_type":"Domestic","origin":"json"}
+{"order_id":7,"customer":"Grace","amount":120.0,"region":"South","date":1736208000000,"tax":25.2,"total":145.2,"market_type":"International","origin":"json"}

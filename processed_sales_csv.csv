@@ -1,0 +1,8 @@
+order_id,customer,amount,region,date,tax,total,market_type,origin
+1,Alice,250.0,North,2025-01-01,52.5,302.5,Domestic,csv
+2,Bob,150.0,South,2025-01-02,31.5,181.5,International,csv
+3,Charlie,400.0,East,2025-01-03,84.0,484.0,Domestic,csv
+4,David,300.0,West,2025-01-04,63.0,363.0,International,csv
+5,Eve,286.6666666666667,North,2025-01-05,60.2,346.8666666666667,Domestic,csv
+6,Frank,500.0,East,2025-01-06,105.0,605.0,Domestic,csv
+7,Grace,120.0,South,2025-01-07,25.2,145.2,International,csv
